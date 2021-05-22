@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Discoveries from space!",
+    "category": "Astronomy",
+    "article": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
+  },
+  {
+    "title": "Fun things to do in Italy",
+    "category": "Travel",
+    "article": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
+  },
+  {
+    "title": "New headquarters being built",
+    "category": "Business",
+    "article":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
+  }
+]

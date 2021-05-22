@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font: sans-serif;
+}
+.card {
+  border-radius: 6px;
+  width: 20rem;
+  position: relative;
+  box-shadow: 2px 4px 5px 0 rgba(114, 84, 84, 0.5);
+}
+
+.category {
+  position: absolute;
+  padding: 1rem;
+  background-color: purple;
+  color: white;
+  top: 12rem;
+  border-radius: 6px;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.title {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+time {
+  position: absolute;
+  right: 0;
+  background-color: blue;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
+}
