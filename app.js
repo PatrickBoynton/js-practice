@@ -40,7 +40,7 @@ fetch("assets/articles.json")
       span.innerHTML = x.category;
       h3.innerHTML = x.title;
       p.innerHTML = x.article;
-      img.src = "/assets/Andromeda.jpeg";
+      img.src = "assets/Andromeda.jpeg";
       img.alt = "Dynamic Image";
 
       switch (span.innerText) {
