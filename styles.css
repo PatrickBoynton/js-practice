@@ -4,7 +4,13 @@
 body {
   font: sans-serif;
 }
+
+.test {
+  display: flex;
+}
+
 .card {
+  margin: 20px;
   border-radius: 6px;
   width: 20rem;
   position: relative;
@@ -16,7 +22,8 @@ body {
   padding: 1rem;
   background-color: purple;
   color: white;
-  top: 12rem;
+  top: 11rem;
+  border: 2px solid black;
   border-radius: 6px;
   left: 0;
   text-transform: uppercase;
