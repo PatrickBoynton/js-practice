@@ -14,12 +14,6 @@ const months = [
   "December",
 ];
 
-const categories = [
-  { Astronomy: "purple" },
-  { Travel: "red" },
-  { Business: "blue" },
-];
-
 fetch("/assets/articles.json")
   .then((response) => response.json())
   .then((data) => {
@@ -49,12 +43,26 @@ fetch("/assets/articles.json")
       img.src = "/assets/Andromeda.jpeg";
       img.alt = "Dynamic Image";
 
+      console.log(span.innerText);
+
+      switch (span.innerText) {
+        case "Astronomy":
+          span.style.backgroundColor = "purple";
+          break;
+        case "Travel":
+          span.style.backgroundColor = "red";
+          break;
+        case "Business":
+          span.style.backgroundColor = "yellow";
+          span.style.color = "black";
+      }
+
       card.appendChild(time);
       card.appendChild(img);
       card.appendChild(span);
       card.appendChild(h3);
       card.appendChild(p);
 
-      document.body.appendChild(card);
+      test.appendChild(card);
     });
   });
