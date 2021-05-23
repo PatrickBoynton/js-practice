@@ -14,7 +14,7 @@ const months = [
   "December",
 ];
 
-fetch("/assets/articles.json")
+fetch("assets/articles.json")
   .then((response) => response.json())
   .then((data) => {
     data.map((x) => {
@@ -42,8 +42,6 @@ fetch("/assets/articles.json")
       p.innerHTML = x.article;
       img.src = "/assets/Andromeda.jpeg";
       img.alt = "Dynamic Image";
-
-      console.log(span.innerText);
 
       switch (span.innerText) {
         case "Astronomy":
