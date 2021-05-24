@@ -45,12 +45,16 @@ fetch("assets/articles.json")
 
       switch (span.innerText) {
         case "Astronomy":
+          img.src = "assets/Andromeda.jpeg";
           span.style.backgroundColor = "purple";
           break;
         case "Travel":
+          img.src = "assets/747.jpg";
+          span.style.top = "9.5rem";
           span.style.backgroundColor = "red";
           break;
         case "Business":
+          img.src = "assets/Bank.jpg";
           span.style.backgroundColor = "yellow";
           span.style.color = "black";
       }
