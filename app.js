@@ -24,7 +24,7 @@ fetch("assets/articles.json")
       const span = document.createElement("span");
       const h3 = document.createElement("h3");
       const p = document.createElement("p");
-      const test = document.querySelector(".test");
+      const container = document.querySelector(".container");
 
       card.classList.add("card");
       span.classList.add("category");
@@ -65,6 +65,6 @@ fetch("assets/articles.json")
       card.appendChild(h3);
       card.appendChild(p);
 
-      test.appendChild(card);
+      container.appendChild(card);
     });
   });
