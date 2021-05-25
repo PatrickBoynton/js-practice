@@ -39,7 +39,7 @@ fetch("assets/articles.json")
 
       span.innerHTML = x.category;
       h3.innerHTML = x.title;
-      p.innerHTML = x.article;
+      p.innerHTML = x.article.substring(0, 150);
       img.src = "assets/Andromeda.jpeg";
       img.alt = "Dynamic Image";
       img.style.height = "40%";
@@ -47,17 +47,17 @@ fetch("assets/articles.json")
       switch (span.innerText) {
         case "Astronomy":
           img.src = "assets/Andromeda.jpeg";
-          span.style.top = "9.5rem";
+          span.style.top = "6.5rem";
           span.style.backgroundColor = "purple";
           break;
         case "Travel":
           img.src = "assets/747.jpg";
-          span.style.top = "9.5rem";
+          span.style.top = "6.5rem";
           span.style.backgroundColor = "red";
           break;
         case "Business":
           img.src = "assets/Bank.jpg";
-          span.style.top = "9.5rem";
+          span.style.top = "6.5rem";
           span.style.backgroundColor = "yellow";
           span.style.color = "black";
       }
