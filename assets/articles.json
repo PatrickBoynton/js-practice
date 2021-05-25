@@ -16,5 +16,17 @@
     "category": "Business",
     "author": "Bob",
     "article": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
+  },
+  {
+    "title": "Fun in the sun!",
+    "category": "Travel",
+    "author": "Chris",
+    "article": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
+  },
+  {
+    "title": "More Spaaaaaace!!",
+    "category": "Astronomy",
+    "author": "Jane",
+    "article": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dolorum. Qui alias ad, dolorum pariatur praesentium, nesciunt porro magni fugit saepe voluptas laudantium illo eaque, ex eius rerum ipsa quibusdam."
   }
 ]
