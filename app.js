@@ -42,10 +42,12 @@ fetch("assets/articles.json")
       p.innerHTML = x.article;
       img.src = "assets/Andromeda.jpeg";
       img.alt = "Dynamic Image";
+      img.style.height = "40%";
 
       switch (span.innerText) {
         case "Astronomy":
           img.src = "assets/Andromeda.jpeg";
+          span.style.top = "9.5rem";
           span.style.backgroundColor = "purple";
           break;
         case "Travel":
@@ -55,6 +57,7 @@ fetch("assets/articles.json")
           break;
         case "Business":
           img.src = "assets/Bank.jpg";
+          span.style.top = "9.5rem";
           span.style.backgroundColor = "yellow";
           span.style.color = "black";
       }
